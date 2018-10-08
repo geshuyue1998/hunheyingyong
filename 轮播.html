@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        padding:0;
+        margin: 0;
+    }
+    /* #box{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        background-color: #f00;
+        left:0px;
+    } */
+    .wrap{
+	width:1200px;
+    height:397px;
+    border:1px soid #000;
+    margin: 30px auto;
+	margin-top: -40px;
+	margin-left: 90px;
+	overflow: hidden;
+}
+.warp a{
+	display: none;
+}
+    </style>
+    <script src="animate.js"></script>
+</head>
+<body>
+    <div class="wrap"id="box" >
+		<a href="#" style="display: block;"><img src="images/4.gif" alt=""></a>
+		<a href="#"><img src="images/2.jpg" alt=""></a>
+		<a href="#"><img src="images/3.jpg" alt=""></a>
+		<a href="#"><img src="images/1.jpg" alt=""></a>
+		<a href="#"><img src="images/5.jpg" alt=""></a>
+		<a href="#"><img src="images/6.jpg" alt=""></a>
+		<a href="#"><img src="images/7.jpg" alt=""></a>
+		<a href="#"><img src="images/8.jpg" alt=""></a>  
+
+	</div>
+    <script>
+		var wrap=document.getElementsByClassName('wrap')[0];
+	    var imgs=wrap.getElementsByTagName('a');
+        var box=document.getElementById('box');
+        box.onclick=function(){
+            animate(box,{left:1200},function(){
+                console.log(1);
+            });
+        }
+    </script>
+</body>
+</html>
