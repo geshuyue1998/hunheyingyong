@@ -1,0 +1,89 @@
+page-a{
+    .tou{
+        margin-top: -120px;
+        text-align: center;
+    }
+    .tou img{
+        width: 70px;
+        height:70px;
+        border-radius:50%;
+    }
+    .tou p{
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    .top{
+        background-color: rgba(179, 175, 175, 0.295);
+        width: 100%;
+        height: 40px;
+        p{
+            float: left;
+        }
+        .one{
+            margin-left: 15px;
+            font-size: 14px;
+        }
+        .two{
+            margin-left: 150px;
+            font-size: 10px;
+            color: gray;
+        }
+    
+    }
+     .icon{
+         font-size: 30px;
+     }
+    .mid{
+        width: 100%;
+        height: 68px;
+        padding-right: -30px;
+        padding-top: 1px;
+       .first{
+           margin-left: -40px;
+           background-color: yellow;
+       }
+        li{
+            float: left;
+            width: 117px;
+            height: 68px;
+            text-align: center;
+            margin-top: -15px;
+            margin-left: 3px;
+            padding-top: 5px;
+            p{
+                margin-top: -4px;
+                font-style:10px;
+            }
+        }
+    }
+    .bottom{
+    
+        padding: 0px !important;
+        width: 100%;
+        height: 307px;
+        background-color: rgba(179, 175, 175, 0.295);
+        .one{
+            margin-top: -12px;
+        }
+        .first{
+            margin-left: -25px;
+        }
+        li{
+            margin: 0 auto;
+           margin-top: 7px;
+           
+            background-color: rgb(255, 255, 255);
+            margin-left: 7px;
+            padding-top: 13px;
+            float: left;
+            width: 50%;
+            height: 92px;
+            text-align: center;
+            p{
+                margin-top: 0px;
+                font-style:8px;
+            }
+        }
+    }
+
+}
